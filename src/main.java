@@ -5,8 +5,10 @@ public class main {
 
     public static void main(String[] args) {
         long x;
-        System.out.println("[mbot]What's you name? in mc ofc"); //1
         Scanner Iscaner = new Scanner(System.in);
+        System.out.println("[mbot]ofc nova will die hah");
+        System.out.println("[mbot]okay.");
+        System.out.println("[mbot]What's you name? in mc ofc"); //1
         String McName = Iscaner.nextLine();
         System.out.println("[mbot]What is fav minecraft item?");//2
         String Mcitem = Iscaner.nextLine();
@@ -26,8 +28,9 @@ public class main {
 
         }
         while(tnt.equals("true")){
-            x = rand.nextInt(394);
+            x = rand.nextInt(394889898);
             System.out.println(x);
+
 
         }
     }
