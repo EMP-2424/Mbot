@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="WeirdProgram:jar">
-    <output-path>C:/</output-path>
+    <output-path>$PROJECT_DIR$/..</output-path>
     <root id="archive" name="WeirdProgram.jar">
       <element id="module-output" name="WeirdProgram" />
     </root>
