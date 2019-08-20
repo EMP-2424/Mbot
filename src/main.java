@@ -27,7 +27,7 @@ public class main {
             tnt = Iscaner.nextLine();
 
         }
-        while(tnt.equals("true")){
+        while(tnt.equals("true")){//
             x = rand.nextInt(394889898);
             System.out.println(x);
 
