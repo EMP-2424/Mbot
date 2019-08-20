@@ -5,14 +5,14 @@ public class main {
 
     public static void main(String[] args) {
         long x;
-        System.out.println("[mbot]What's you name? in mc ofc");
+        System.out.println("[mbot]What's you name? in mc ofc"); //1
         Scanner Iscaner = new Scanner(System.in);
         String McName = Iscaner.nextLine();
-        System.out.println("[mbot]What is fav minecraft item?");
+        System.out.println("[mbot]What is fav minecraft item?");//2
         String Mcitem = Iscaner.nextLine();
-        System.out.println("[mbot] Your name is " + McName);
-        System.out.println("[mbot] your fav item is " + Mcitem);
-        System.out.println("[mbot] Great. YOUR PC HAS BEEN HACKED bruh jk lol");
+        System.out.println("[mbot] Your name is " + McName);//3
+        System.out.println("[mbot] your fav item is " + Mcitem);//4
+        System.out.println("[mbot] Great. YOUR PC HAS BEEN HACKED bruh jk lol");//5
         System.out.println("[Mbot] should i spam your pc? say true or if you dont want to say false // Warning this might lag the pc");
         String tnt = Iscaner.nextLine();
         System.out.println(tnt);
@@ -26,7 +26,7 @@ public class main {
 
         }
         while(tnt.equals("true")){
-            x = rand.nextInt(394584544);
+            x = rand.nextInt(394);
             System.out.println(x);
 
         }
