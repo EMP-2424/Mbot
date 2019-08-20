@@ -1,0 +1,2 @@
+# WeirdProgram
+creation by hamburger
