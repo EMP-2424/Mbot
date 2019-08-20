@@ -12,3 +12,6 @@ java -jar WeridProgram.jar
 ```
 
 enjoy lol
+
+how to compile?
+soon
