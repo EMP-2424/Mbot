@@ -14,4 +14,5 @@ java -jar WeridProgram.jar
 enjoy lol
 
 how to compile?
-soon
+
+download the project and import it to inteljida
