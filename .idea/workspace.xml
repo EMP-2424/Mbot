@@ -7,19 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="293e0db2-5374-4b40-afe5-91ab2ab55361" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/xrambad/mbot/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/WeirdProgram_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/WeirdProgram_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/WeirdProgram_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Mbotg_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WeirdProgram.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Mbot.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WeirdProgram/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WeirdProgram/Mbot1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WeirdProgram/Mbot2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WeirdProgram/main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/firstmethod.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/xrambad/mbot/oldMbot.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
