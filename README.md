@@ -1,4 +1,4 @@
-# WeirdProgram
+# Mbot Known as WeirdProgram
 creation by hamburger
 How to use:
 download 
