@@ -11,34 +11,34 @@ public class main {
             System.out.println("[Mbot] unknown command");
             command = Iscaner.nextLine();
         }
-        if (command.equals("stop")){
-            System.out.println("Exiting mbot");
-            try {
-                Thread.sleep(4000);
-                System.exit(0);
-            }catch(InterruptedException e) {
-                Thread.currentThread().interrupt();
-
-            }
-        }
-        if (command.equals("old")){
-            oldMbot Mbot = new oldMbot();
-            Mbot.oldMbot();
-            System.out.println("[Mbot] Welcome back to command line.");
-        }
-        if (command.equals("help")){
-            System.out.println("[Mbot] Commands");
-            System.out.println("[Mbot] 'stop' it does stop me ");
-            System.out.println("[Mbot] 'help' this menu lol");
-            System.out.println("[Mbot] 'old' runs first release of mbot stupid class aka [mbot]ofc nova will die hah");
-        }
-        if (command.equals("sayed")) {
-            Sayed.sayed();
+        switch (command) {
+            case "stop":
+                System.out.println("Exiting mbot");
+                try{
+                    Thread.sleep(4000);
+                    System.exit(0);
+                }catch(InterruptedException e){
+                    Thread.currentThread().interrupt();
+                }
+                break;
+            case "old":
+                oldMbot.oldMbot();
+                System.out.println("[Mbot] Welcome back to command line.");
+                break;
+            case "help":
+                System.out.println("[Mbot] Commands");
+                System.out.println("[Mbot] 'stop' it does stop me ");
+                System.out.println("[Mbot] 'help' this menu lol");
+                System.out.println("[Mbot] 'old' runs first release of mbot stupid class aka [mbot]ofc nova will die hah");
+                break;
+            case "sayed":
+                Sayed.sayed();
+                break;
         }
     }
     public static void main(String[] args){
         int x = 0;
-        System.out.println("loading mbot 1.0.1");
+        System.out.println("loading mbot 1.0.2");
         try {
             Thread.sleep(8000);
         } catch(InterruptedException e) {
