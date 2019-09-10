@@ -1,14 +1,13 @@
 # Mbot Known as WeirdProgram
 creation by hamburger
 How to use:
-download 
-https://github.com/ham1255/WeirdProgram/releases/download/1.0/WeirdProgram.jar
+download latest from downloads 
 
 
-then open command line and type [in windows known as cmd]
+then open command line and type [in windows known as cmd] or linux bash
 
 ```
-java -jar WeridProgram.jar
+java -jar mbot.jar
 ```
 
 enjoy lol
