@@ -7,7 +7,7 @@ public class main {
         String command;
         Scanner Iscaner = new Scanner(System.in);
         command = Iscaner.nextLine();
-        while (!command.equals("help") && !command.equals("old") && !command.equals("stop")) {
+        while (!command.equals("help") && !command.equals("old") && !command.equals("stop") && !command.equals("sayed")) {
             System.out.println("[Mbot] unknown command");
             command = Iscaner.nextLine();
         }
@@ -31,7 +31,9 @@ public class main {
             System.out.println("[Mbot] 'stop' it does stop me ");
             System.out.println("[Mbot] 'help' this menu lol");
             System.out.println("[Mbot] 'old' runs first release of mbot stupid class aka [mbot]ofc nova will die hah");
-
+        }
+        if (command.equals("sayed")) {
+            Sayed.sayed();
         }
     }
     public static void main(String[] args){
