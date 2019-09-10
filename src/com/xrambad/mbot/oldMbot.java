@@ -1,9 +1,11 @@
+package com.xrambad.mbot;
+
 import java.util.Random;
 import java.util.Scanner;
 
-public class main {
+public class oldMbot {
 
-    public static void main(String[] args) {
+    public static void oldMbot() {
         long x;
         Scanner Iscaner = new Scanner(System.in);
         System.out.println("[mbot]ofc nova will die hah");
@@ -21,7 +23,8 @@ public class main {
         Random rand = new Random();
         while(!tnt.equals("true")) {
             if (tnt.equals("false")){
-                System.exit(0);
+                //System.exit(0);
+                break;
             }
             System.out.println("[mbot] Nope thats not a boolean! try again. ps: use false or true");
             tnt = Iscaner.nextLine();
