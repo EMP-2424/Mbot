@@ -14,4 +14,4 @@ enjoy lol
 
 how to compile?
 
-download the project and open it as project
+download the project and open it as project in intelljidia
