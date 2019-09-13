@@ -1,4 +1,4 @@
-package com.xrambad.mbot;
+package com.Atlantheamc.mbot;
 
 import java.time.LocalDate;
 import java.util.Scanner;

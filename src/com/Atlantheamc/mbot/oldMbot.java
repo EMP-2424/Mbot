@@ -1,4 +1,4 @@
-package com.xrambad.mbot;
+package com.Atlantheamc.mbot;
 
 import java.util.Random;
 import java.util.Scanner;
