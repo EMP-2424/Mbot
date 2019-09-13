@@ -40,7 +40,7 @@ public class main {
         int x = 0;
         System.out.println("loading mbot 1.0.2");
         try {
-            Thread.sleep(8000);
+            Thread.sleep(1000);
         } catch(InterruptedException e) {
             Thread.currentThread().interrupt();
         }
