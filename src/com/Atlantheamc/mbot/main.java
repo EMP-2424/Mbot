@@ -7,7 +7,7 @@ public class main {
         String command;
         Scanner Iscaner = new Scanner(System.in);
         command = Iscaner.nextLine();
-        while (!command.equals("help") && !command.equals("old") && !command.equals("stop") && !command.equals("math")) {
+        while (!command.equals("help") && !command.equals("old") && !command.equals("stop") && !command.equals("brith")) {
             System.out.println("[Mbot] unknown command");
             command = Iscaner.nextLine();
         }
@@ -30,9 +30,10 @@ public class main {
                 System.out.println("[Mbot] 'stop' it does stop me ");
                 System.out.println("[Mbot] 'help' this menu lol");
                 System.out.println("[Mbot] 'old' runs first release of mbot stupid class aka [mbot]ofc nova will die hah");
+                System.out.println("[Mbot] 'brith' A program that calculate How many Days months years since your brith.");
                 break;
-            case "math":
-                Something.Something();
+            case "brith":
+                BrithMath.Something();
                 break;
         }
     }

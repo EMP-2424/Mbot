@@ -5,7 +5,7 @@ import java.time.Period;
 import java.time.temporal.ChronoUnit;
 import java.util.Scanner;
 
-public class Something {
+public class BrithMath {
     static void Something(){
         LocalDate Total;
         int x = 0;
@@ -38,7 +38,7 @@ public class Something {
         while (x < 1) {
             try {
                 Total = LocalDate.of(Year, Month, Day);
-                System.out.println("You where born on " + Total + " so You are " + ChronoUnit.YEARS.between(Total, now) + " years old or " + ChronoUnit.MONTHS.between(Total, now) + "month old OR "  + ChronoUnit.DAYS.between(Total, now));
+                System.out.println("You where born on " + Total + " so You are " + ChronoUnit.YEARS.between(Total, now) + " years old or " + ChronoUnit.MONTHS.between(Total, now) + " month old OR "  + ChronoUnit.DAYS.between(Total, now) + " Days old.");
                 x = x + 1;
             } catch (Exception e) {
                 System.out.println("Type right day just think Your month is " + MonthsName[Month] + " Which is max " + MonthMaxDays[Month] + " Days. " );
