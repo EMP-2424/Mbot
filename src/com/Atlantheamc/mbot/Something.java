@@ -2,6 +2,7 @@ package com.Atlantheamc.mbot;
 
 import java.time.LocalDate;
 import java.time.Period;
+import java.time.temporal.ChronoUnit;
 import java.util.Scanner;
 
 public class Something {
@@ -11,7 +12,6 @@ public class Something {
         int Month;
         int Year;
         int Day;
-        int YearDays = 365;
         String[] MonthsName = {"nothing here lol","January","February","March","April","May","June","July","August","September","October","November","December"};
         LocalDate now = LocalDate.now();
         //-----------------------------\\
@@ -37,18 +37,14 @@ public class Something {
         while (x < 1) {
             try {
                 Total = LocalDate.of(Year, Month, Day);
-                Period Differnt = Period.between(Total, now);
-                System.out.println("You where born on " + Total + " so You are " + Differnt.getYears() + " Years Old Or " + Differnt.getMonths() + " Months old Or " + Differnt.getDays() + "Days Old");
+                System.out.println("You where born on " + Total + " so You are " + ChronoUnit.YEARS.between(Total, now) + " years old or " + ChronoUnit.MONTHS.between(Total, now) + "month old OR "  + ChronoUnit.DAYS.between(Total, now));
                 x = x + 1;
-                System.out.println(Differnt);
             } catch (Exception e) {
                 System.out.println("Type right day just think Your month is " + MonthsName[Month]);
                 Day = Iscaner.nextInt();
                 Total = LocalDate.of(Year, Month, Day);
-                Period Differnt = Period.between(Total, now);
-                System.out.println("You where born on " + Total + " so You are " + Differnt.getYears() + " years old " + Differnt.getMonths() "month"  + Differnt.getDays());
+                System.out.println("You where born on " + Total + " so You are " + ChronoUnit.YEARS.between(Total, now) + " years old or " + ChronoUnit.MONTHS.between(Total, now) + "month old OR "  + ChronoUnit.DAYS.between(Total, now));
                 x = x + 1;
-                System.out.println(Differnt);
             }
 
         }
