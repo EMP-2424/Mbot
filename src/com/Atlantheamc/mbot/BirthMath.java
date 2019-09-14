@@ -5,7 +5,7 @@ import java.time.Period;
 import java.time.temporal.ChronoUnit;
 import java.util.Scanner;
 
-public class BrithMath {
+public class BirthMath {
     static void Something(){
         LocalDate Total;
         int x = 0;
